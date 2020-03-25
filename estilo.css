@@ -1,0 +1,150 @@
+@font-face 	{
+ 		font-family: MoDeco;
+  		src: url(../scripts/Mouse_Deco.ttf);
+	}
+
+
+	.wh
+	{
+		background-color: white;
+
+		width: 50%;
+	}	
+
+	.wh2
+	{
+		background-color: white;
+		height: 80%;
+		width: 60%;
+	}	
+
+
+	.indexlogo
+	{
+		-webkit-filter: drop-shadow(0px 0px 50px black);
+	}
+
+	.gal
+	{
+		background-image: url("bg.jpg");
+		width: 100%;
+		  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+
+	.logo
+	{
+		width: 300px;
+		opacity: 0.5;
+		height: auto;
+		transition-duration: 0.3s;
+	}
+	.body
+	{
+		background-color: #a3d9b1;
+	}
+
+	.mode
+	{	
+		color: white;
+		font-family: MoDeco;
+		font-size: 30px;
+		-webkit-filter: drop-shadow(0px 0px 10px black);
+	}
+	.logo:hover
+	{
+		opacity: 1;
+		transition-duration: 0.3s;
+	}
+	.menu
+	{
+		list-style-type: none;
+  		margin: -8;
+  		padding: 0;		
+  		position: fixed;
+  		z-index:10; 
+ 		width: 100%;
+ 		background-color: #53748f;
+	}
+	.menub
+	{
+		text-align: center;
+  		text-decoration: none;
+  		float: left;
+  		width: 18%;
+  		color: white;
+  		height: 15%;
+  		padding: 14px 0px;
+  		transition: 1s ease;
+
+	}
+
+	.menub:hover
+	{
+		background-color: white;
+		color: #53748f;
+		border-radius: 40px;
+		transition: 0.4s ease;
+		-webkit-transform: rotateZ(-5deg);
+        -ms-transform: rotateZ(-5deg);
+        transform: rotateZ(-5deg) scale(1.2);
+        /*animation: bounce 1s;*/
+
+	}
+
+		.name
+	{
+		text-align: center;
+  		text-decoration: none;
+  		float: right;
+  		width: 18%;
+  		color: white;
+  		height: 15%;
+  		padding-top: 10px;
+  		transition: 0.4s ease;
+	}
+
+	.text
+	{
+		width: 40%;
+	}
+
+
+	.Galeria
+	{
+		text-align: center;
+		font-size: 40;
+	}
+
+  .contenido
+  {
+  	width: 100%;
+  	background-color: #c7c7c7;
+  }
+
+  .galimg
+  {
+  	-webkit-filter: grayscale(100%);
+  	width: 18%;
+
+  	opacity: 0.5;
+  	padding: 15 15 15 15;
+  	transition: 0.6s ease;
+  }
+
+  .galimg:hover
+  {
+  	
+  	-webkit-filter: grayscale(0%);
+  	opacity: 1;
+  	transition: 0.6s ease;
+  	 transform: scale(1.2);
+  }
+
+  .galimg:before
+  {
+  	border: solid 5px green;
+  }
+}
